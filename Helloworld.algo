@@ -7,8 +7,8 @@ Mettre le fond couleur jaune
 Configurer la fenetre sur ‘exitOnClose’
 // Création du label de texte
 Créer un label avec du texte centré et contenant le texte HELLO_WORLD_TEXT
-Créer la couleur jaune
-Mettre la couleur jaune sur le label
+Créer la couleur green
+Mettre la couleur green sur le label
 // Finalisation
 Ajouter le lable sur la fenetre
 Afficher la fenêtre
