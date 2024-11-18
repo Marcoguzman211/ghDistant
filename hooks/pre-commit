@@ -1,0 +1,15 @@
+#!/bin/bash
+
+read -p "Verify this commit (y/[n])? " yn < /dev/tty
+yn=${yn:-n}
+
+case $yn in
+    [Yy]* )
+        echo "commit verified on $(date)" > suivi/commitInfo.txt
+        git add suivi/commitInfo.txt
+        ;;
+    [Nn]* )
+        echo "Commit skipped verification."
+        ;;
+esac
+exit 0
